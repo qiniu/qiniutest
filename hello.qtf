@@ -1,0 +1,29 @@
+#!/usr/bin/env qiniutest
+
+# setUp
+#
+	match $(testenv) `env QiniuTestEnv`
+	match $(env) `envdecode QiniuTestEnv_$(testenv)`
+
+	host rs.qiniu.com $(env.RSHost)
+	auth qboxtest `qbox $(env.AK) $(env.SK)`
+
+	echo case setUp
+
+case testCase1
+
+	post http://rs.qiniu.com/stat/`base64 testqiniu:ecug-2014-place.png`
+	auth qboxtest
+	ret 200
+	echo $(resp)
+
+case testCase2
+
+	post http://rs.qiniu.com/stat/`base64 testqiniu:ecug-2014-place.png`
+	auth `qbox $(env.AK) $(env.SK)`
+	ret 200
+
+tearDown
+
+	echo case tearDown
+
