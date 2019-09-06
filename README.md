@@ -1,19 +1,19 @@
 qiniutest manual
 =========================
 
-[![Build Status](https://travis-ci.org/qiniu/qiniutest.svg?branch=develop)](https://travis-ci.org/qiniu/qiniutest) [![GoDoc](https://godoc.org/qiniupkg.com/qiniutest?status.svg)](https://godoc.org/qiniupkg.com/qiniutest)
+[![Build Status](https://travis-ci.org/qiniu/qiniutest.svg?branch=master)](https://travis-ci.org/qiniu/qiniutest) [![GoDoc](https://godoc.org/github.com/qiniu/qiniutest?status.svg)](https://godoc.org/github.com/qiniu/qiniutest)
 
 [![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
 # 下载
 
 ```
-go get -u qiniupkg.com/qiniutest
+go get -u github.com/qiniu/qiniutest
 ```
 
 # 基础原理
 
-* [httptest.v1/README.md](https://github.com/qiniu/httptest.v1)
+* [httptest/README.md](https://github.com/qiniu/httptest)
  
 # 命令行
 
@@ -55,7 +55,7 @@ match <expected-object> <source-object>
 
 关于 match 的详细解释，参见：
 
-* [httptest.v1/README.md](https://github.com/qiniu/httptest.v1)
+* [httptest/README.md](https://github.com/qiniu/httptest)
 
 ### host
 
