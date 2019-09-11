@@ -3,6 +3,6 @@ module github.com/qiniu/qiniutest
 go 1.12
 
 require (
-	github.com/qiniu/httptest v1.0.0
-	github.com/qiniu/x v8.0.0+incompatible
+	github.com/qiniu/httptest v1.0.1
+	github.com/qiniu/x v0.0.0-20190911131702-ec64d9399366
 )
