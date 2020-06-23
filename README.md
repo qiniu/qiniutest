@@ -1,7 +1,9 @@
 qiniutest manual
 =========================
 
-[![Build Status](https://travis-ci.org/qiniu/qiniutest.svg?branch=master)](https://travis-ci.org/qiniu/qiniutest) [![GoDoc](https://godoc.org/github.com/qiniu/qiniutest?status.svg)](https://godoc.org/github.com/qiniu/qiniutest) [![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/qiniutest)](https://goreportcard.com/report/github.com/qiniu/qiniutest)
+[![LICENSE](https://img.shields.io/github/license/qiniu/qiniutest.svg)](https://github.com/qiniu/qiniutest/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/qiniu/qiniutest.svg?branch=master)](https://travis-ci.org/qiniu/qiniutest) [![Go Report Card](https://goreportcard.com/badge/github.com/qiniu/qiniutest)](https://goreportcard.com/report/github.com/qiniu/qiniutest) [![GitHub release](https://img.shields.io/github/v/tag/qiniu/qiniutest.svg?label=release)](https://github.com/qiniu/qiniutest/releases)
+[![GoDoc](https://img.shields.io/badge/Godoc-reference-blue.svg)](https://godoc.org/github.com/qiniu/qiniutest)
 
 [![Qiniu Logo](http://open.qiniudn.com/logo.png)](http://www.qiniu.com/)
 
